@@ -52,9 +52,10 @@ Usage: fast-resume [OPTIONS] COMMAND [ARGS]...
 ```
 
 ### Basic (local)
-See the [example](./templates/example.yaml) for a sample YAML file.
+See the [example](./fastapi_resume/templates/example.yaml) for a sample YAML file
+
 ```sh
-$ fast-resume serve templates/example.yaml
+$ fast-resume serve <my_data.yaml>
 ```
 
 Then you can `curl` your new resume API:
