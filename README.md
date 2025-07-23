@@ -57,5 +57,11 @@ See the [example](./templates/example.yaml) for a sample YAML file.
 $ fast-resume serve templates/example.yaml
 ```
 
+Then you can `curl` your new resume API:
+
+```sh
+$ curl http://localhost:8000/
+```
+
 ## Documentation
-See docs for more real word examples and how to deploy to your favorite cloud provider.
+See docs for more real word examples and how to deploy to your favorite cloud provider (Coming soon)
