@@ -32,22 +32,18 @@ education:
   school: University of Technology
 
 skills:
-- Programming Languages:
+- languages_frameworks:
     - Python
-    - JavaScript
+    - NodeJS
     - TypeScript
     - Java
-- Frameworks & Libraries:
-    - Django
-    - React
-    - FastAPI
-    - Node.js
-- Tools & Technologies:
-    - Docker
+- infrastructure_tooling:
     - Kubernetes
-    - AWS
-    - Git
-- Databases:
+    - Codecov
+- cloud_devops:
+    - Docker
+    - Terraform
+- databases:
     - PostgreSQL
     - MongoDB
     - Redis
