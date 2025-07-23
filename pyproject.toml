@@ -1,6 +1,6 @@
 [project]
 name = "fastapi-resume"
-version = "0.0.1"
+version = "0.0.2"
 description = "FastAPI-powered resume generator: expose your CV as a JSON REST API"
 readme = "README.md"
 maintainers = [
@@ -50,10 +50,6 @@ dev = [
     "types-pyyaml==6.0.12.20250516",
 ]
 
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project.scripts]
 fast-resume = "fastapi_resume.cli:app"
 
@@ -63,13 +59,7 @@ Issues = "https://github.com/nickatnight/fastapi-resume/issues"
 
 [tool.uv]
 required-version = ">=0.7.18"
-
-[tool.setuptools]
-include-package-data = false
-
-[tool.setuptools.packages.find]
-include = ["fastapi_resume"]
-exclude = ["docs*", "tests*", "templates*"]
+package = true
 
 [tool.isort]
 multi_line_output = 3
