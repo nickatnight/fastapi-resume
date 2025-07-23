@@ -8,6 +8,9 @@
     <a href="https://pypi.org/project/fastapi-resume/">
         <img alt="PyPi Shield" src="https://img.shields.io/pypi/v/fastapi-resume">
     </a>
+    <a href="https://docs.astral.sh/uv/">
+        <img alt="uv version" src="https://img.shields.io/badge/uv-0.7.18+-purple">
+    </a>
     <!-- <a href="https://www.python.org/downloads/">
         <img alt="Python Versions Shield" src="https://img.shields.io/badge/Python-3.12+-blue?logo=python&logoColor=white">
     </a> -->
