@@ -68,8 +68,8 @@ required-version = ">=0.7.18"
 include-package-data = false
 
 [tool.setuptools.packages.find]
-include = ["fastapi_resume"]  # Replace with your actual package name
-exclude = ["docs*", "tests*", "templates*"] 
+include = ["fastapi_resume"]
+exclude = ["docs*", "tests*", "templates*"]
 
 [tool.isort]
 multi_line_output = 3

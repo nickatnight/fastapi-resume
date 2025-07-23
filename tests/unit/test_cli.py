@@ -16,6 +16,7 @@ def test_cli_validate_sad_path(temp_txt_file: str) -> None:
     assert result.exit_code == 1
     assert "Error validating file" in result.output
 
+
 def test_cli_validate_file_does_not_exist_sad_path(temp_txt_file: str) -> None:
     runner = CliRunner()
     result = runner.invoke(app, ["validate", "does_not_exist.yaml"])
