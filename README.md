@@ -3,7 +3,7 @@
         <img alt="GitHub Actions status" src="https://github.com/nickatnight/fastapi-resume/actions/workflows/main.yaml/badge.svg">
     </a>
     <a href="https://codecov.io/gh/nickatnight/fastapi-resume">
-        <img alt="Coverage" src="https://codecov.io/gh/nickatnight/fastapi-resume/branch/main/graph/badge.svg?token=HgBDCeK3pF"/>
+        <img alt="Coverage" src="https://codecov.io/gh/nickatnight/fastapi-resume/branch/main/graph/badge.svg?token=5yV0ottQ9o"/>
     </a>
     <a href="https://pypi.org/project/fastapi-resume/">
         <img alt="PyPi Shield" src="https://img.shields.io/pypi/v/fastapi-resume">
