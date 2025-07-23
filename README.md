@@ -56,4 +56,3 @@ $ fast-resume serve templates/example.yaml
 
 ## Documentation
 See docs for more real word examples and how to deploy to your favorite cloud provider.
-
