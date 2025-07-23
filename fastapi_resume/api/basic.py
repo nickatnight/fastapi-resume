@@ -9,7 +9,7 @@ def create_basic_router(get_resume_data: Callable[[], dict[str, Any]]) -> APIRou
 
     @router.get("/")
     def root(resume_data: dict[str, Any] = Depends(get_resume_data)) -> dict[str, Any]:
-        """Root endpoint with API information"""
+        """Root endpoint, full resume"""
         return resume_data
 
     @router.get("/basic")

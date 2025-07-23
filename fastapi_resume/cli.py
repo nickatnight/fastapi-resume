@@ -7,7 +7,10 @@ from fastapi_resume.utils import create_api, load_resume_data
 
 
 app = typer.Typer(
-    name="fast-resume", help="FastAPI Resume API Server", add_completion=False
+    name="fast-resume",
+    help="FastAPI Resume API Server",
+    add_completion=False,
+    rich_markup_mode="markdown",
 )
 
 
@@ -28,6 +31,26 @@ def serve(
     Start the FastAPI Resume API server.
 
     Provide the path to your YAML data file to serve your resume via API.
+
+    Available endpoints:
+
+    * /
+
+    * /basic
+
+    * /experience
+
+    * /education
+
+    * /skills
+
+    * /projects
+
+    * /contact
+
+    ---
+
+    View at localhost:8000/
     """
     # Validate data file exists
     data_path = Path(data_file)

@@ -1,6 +1,7 @@
 from typing import Any, Callable
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
+from fastapi.exceptions import HTTPException
 
 
 def create_skills_router(get_resume_data: Callable[[], dict[str, Any]]) -> APIRouter:
