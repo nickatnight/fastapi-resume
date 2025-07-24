@@ -29,5 +29,5 @@ You can deploy your resume API to Render with the following steps:
             - key: PYTHON_VERSION
                 value: '3.12.11'
 
-4. Go to your Render dashboard a go to New -> Blueprint
+4. Go to your Render dashboard and go to New -> Blueprint, click on "Deploy".
 5. Your site will then be available at ``https://<project-name>.onrender.com``
