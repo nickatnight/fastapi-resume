@@ -19,3 +19,7 @@ lint-all: black isort ruff mypy
 test:
 	@echo "running tests...."
 	uv run pytest --cov-report=html --cov=fastapi_resume/ tests/ -vv
+
+sphinx:
+	@echo "building docs...."
+	uv run sphinx-build -b html docs/source docs/build

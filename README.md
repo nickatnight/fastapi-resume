@@ -14,7 +14,7 @@
     <a href="https://www.python.org/downloads/">
         <img alt="Python Versions Shield" src="https://img.shields.io/badge/Python-3.12+-blue?logo=python&logoColor=white">
     </a>
-    <!-- <a href="https://fastapi-resume.readthedocs.io/en/latest/"><img alt="Read The Docs Badge" src="https://img.shields.io/readthedocs/fastapi-resume"></a> -->
+    <a href="https://fastapi-resume.readthedocs.io/en/latest/"><img alt="Read The Docs Badge" src="https://img.shields.io/readthedocs/fastapi-resume"></a>
     <a href="https://github.com/nickatnight/fastapi-resume/blob/master/LICENSE">
         <img alt="License Shield" src="https://img.shields.io/github/license/nickatnight/fastapi-resume">
     </a>
@@ -55,7 +55,7 @@ Usage: fast-resume [OPTIONS] COMMAND [ARGS]...
 See the [example](./fastapi_resume/templates/example.yaml) for a sample YAML file
 
 ```sh
-$ fast-resume serve <my_data.yaml>
+$ fast-resume serve <resume.yaml>
 ```
 
 Then you can `curl` your new resume API:
