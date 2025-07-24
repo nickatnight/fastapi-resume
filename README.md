@@ -65,4 +65,4 @@ $ curl http://localhost:8000/
 ```
 
 ## Documentation
-See docs for more real word examples and how to deploy to your favorite cloud provider (Coming soon)
+See docs for more real word examples and how to deploy to your favorite cloud provider [here](https://fastapi-resume.readthedocs.io/en/latest/)

@@ -117,3 +117,22 @@ The available endpoints are:
 - ``/skills`` - Skills
 - ``/skills/{category}`` - Skills by category
 - ``/projects`` - Projects
+
+Validating your YAML
+--------------------
+
+You can validate your YAML file with the following command:
+
+.. code-block:: bash
+
+    $ fast-resume validate resume.yaml
+
+
+Getting info about your YAML
+----------------------------
+
+You can get info about your YAML file with the following command:
+
+.. code-block:: bash
+
+    $ fast-resume info resume.yaml

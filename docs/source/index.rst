@@ -30,6 +30,7 @@ Documentation Conventions
     :caption: Deployment
 
     deployment/render
+    deployment/digitalocean
 
 .. _package_info:
 
